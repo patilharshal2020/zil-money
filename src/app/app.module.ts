@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserTableComponent } from './user/user-table/user-table.component';
 import { SerachPipePipe } from './pipes/serach-pipe.pipe';
+import { HarryComponent } from './harry/harry.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserTableComponent,
-    SerachPipePipe
+    SerachPipePipe,
+    HarryComponent
   ],
   imports: [
     BrowserModule,
