@@ -1,3 +1,16 @@
 .demo-div {
     height: 400px;
 }
+
+img {
+    width: 500px;
+}
+
+.prev {
+    left: 20px;
+
+}
+
+.next {
+    right: 20px;
+}

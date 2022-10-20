@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { UserTableComponent } from './user/user-table/user-table.component';
 import { SerachPipePipe } from './pipes/serach-pipe.pipe';
 import { HarryComponent } from './harry/harry.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserTableComponent,
     SerachPipePipe,
-    HarryComponent
+    HarryComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
