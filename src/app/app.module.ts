@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { VimeModule } from '@vime/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,12 +16,13 @@ import { TestComponent } from './test/test.component';
     UserTableComponent,
     SerachPipePipe,
     HarryComponent,
-    TestComponent
+    TestComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    VimeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

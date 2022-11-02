@@ -1,16 +1,12 @@
-.demo-div {
-    height: 400px;
+:host {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-img {
-    width: 500px;
-}
-
-.prev {
-    left: 20px;
-
-}
-
-.next {
-    right: 20px;
+#container {
+    width: 100%;
+    max-width: 960px;
 }
